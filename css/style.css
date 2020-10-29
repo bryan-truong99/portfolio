@@ -1,0 +1,44 @@
+a {
+  color: inherit; 
+}
+body {
+  background-color: #f8efd4;
+  font-family: 'Gothic A1', sans-serif;
+  color: #132743;
+}
+
+/* Name Header */
+.name {
+  line-height: .8;
+  font-size: 9rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+#name-header{
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 10%;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* About Me */
+.profilepic {
+  width:100%;
+  margin: auto;
+}
+#about-me {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+/* Contact */
+.icon {
+  padding: 20px 10px;
+}
+#contact {
+  text-align: center;
+  padding: 2%;
+}
