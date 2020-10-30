@@ -1,5 +1,5 @@
 a {
-  color: inherit; 
+  color: inherit;
 }
 body {
   background-color: #f8efd4;
@@ -7,6 +7,9 @@ body {
   color: #132743;
 }
 
+h1, h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
 /* Name Header */
 .name {
   line-height: .8;
@@ -21,7 +24,6 @@ body {
   padding-top: 15%;
   padding-bottom: 15%;
   padding-left: 10%;
-  font-family: 'Cormorant Garamond', serif;
 }
 
 /* About Me */
@@ -32,12 +34,36 @@ body {
 #about-me {
   text-align: left;
   font-size: 1.3rem;
+  padding-bottom: 7%;
+}
+
+/* Projects */
+.card {
+  background-color: #f8efd4;
+  border: none;
+  transition: 0.3s;
+}
+
+.card-body {
+  padding-left: 0;
+}
+.projects-row {
+  padding-top: 10%;
+}
+
+.project-title {
+  padding-bottom: 5%;  
+}
+
+#projects {
+  padding: 10%;
 }
 
 /* Contact */
 .icon {
   padding: 20px 10px;
 }
+
 #contact {
   text-align: center;
   padding: 2%;
